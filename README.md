@@ -1,8 +1,6 @@
-This is the readme for the NEURON with python and the matlab code for  
-implementation of the STDP rule by  
+This is the readme for the NEURON with python and the matlab code for implementation of the STDP rule by  
 
-Clopath C, Busing L, Vasilaki E, Gerstner W (2010) Connectivity  
-reflects coding: a model of voltage-based STDP with homeostasis.  
+Clopath C, Busing L, Vasilaki E, Gerstner W (2010) Connectivity reflects coding: a model of voltage-based STDP with homeostasis.  
 *Nat Neurosci* 13:344-52  
 
 STDP mechanism added to the AlphaSynapse in NEURON.
@@ -15,19 +13,10 @@ Claudia Clopath, Center for Theoretical Neuroscience, Columbia U.
 Usage instructions:
 -------------------
 
-0. NEURON needs to be installed with the --with-nrnpython option as  
-   shown at [http://www.neuron.yale.edu/neuron/download](http://www.neuron.yale.edu/neuron/download)  
-   Alternatively one of Eilif Mueller's versions can be installed:  
-   [http://neuralensemble.org/people/eilifmuller/software.html](http://neuralensemble.org/people/eilifmuller/software.html)  
-1. Compile the mod-file, using: "nrnivmodl" in the directory  
-   containing the files (implementation of the Clopath et al. STDP rule  
-   and the neuron model)  
-2. Run the example code, using: "python claudia_pairing.py -i" in the  
-   same directory. This will reproduce Figure 2B from the Clopath et  
-   al. manuscript (the protocol is set to qualitatively produce  
-   plasticity data from Sjoestroem et al., Neuron 32, 1149–1164 (2001);  
-   15 times 5 pairings repeated at 0.1, 10,20,40,50 Hz, delta t =  
-   +10ms,-10ms)  
+0. NEURON needs to be installed with the --with-nrnpython option as shown at [http://www.neuron.yale.edu/neuron/download](http://www.neuron.yale.edu/neuron/download)  
+   Alternatively one of Eilif Mueller's versions can be installed: [http://neuralensemble.org/people/eilifmuller/software.html](http://neuralensemble.org/people/eilifmuller/software.html)  
+1. Compile the mod-file, using: "nrnivmodl" in the directory containing the files (implementation of the Clopath et al. STDP rule and the neuron model)  
+2. Run the example code, using: "python claudia_pairing.py -i" in the same directory. This will reproduce Figure 2B from the Clopath et al. manuscript (the protocol is set to qualitatively produce plasticity data from Sjoestroem et al., Neuron 32, 1149–1164 (2001); 15 times 5 pairings repeated at 0.1, 10,20,40,50 Hz, delta t = +10ms,-10ms)  
 
 ![screenshot](./screenshot.png)
 
